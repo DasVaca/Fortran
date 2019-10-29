@@ -12,9 +12,9 @@ v1(3) = 0.2
 ! use nested doo loops to initialise the matrix
 ! to the unit matrix
 do i=1,3
- do j=1,3
-  m(j,i) = 0.0
-		end do
+	do j=1,3
+		m(j,i) = 0.0
+	end do
 	m(i,i) = 1.0
 end do
 
